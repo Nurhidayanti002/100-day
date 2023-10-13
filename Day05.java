@@ -9,10 +9,10 @@ public class Day05 {
         System.out.println("masukkan angka=");
         angka = scan.nextInt();
         if (angka % 2 == 0){
-           System.out.println ("," + "angka ini genap ");
+           System.out.println ("angka " + " "+angka + ",angka ini genap ");
         }
            else
-           System.out.println ("," + "angka ini ganjil");
+           System.out.println ("angka " +" " +angka + ",angka ini ganjil");
         }
         }
         
