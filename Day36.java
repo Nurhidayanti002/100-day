@@ -3,11 +3,11 @@ package pkg100day;
 
 public class Day36 {
     public static void main(String[] args) {
-        int num = 4;
-        for(int i = 1; i <= 10; ++i)
-        {
-            System.out.printf("%d * %d = %d \n", num, i, num * i);
-        }
+         for (int a = 2; a <= 20;a++){
+           if(a % 2 != 0 ){
+           System.out.println("tampilkan angka ganjil " + a);
+           }
+         }
     }
  
 }

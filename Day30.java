@@ -6,8 +6,12 @@ public class Day30 {
         Scanner sc = new Scanner (System.in);
         int Min = sc.nextInt();
         int Max = sc.nextInt ();
-        for (int i = Max+1 ; i < Min; i++){
-                System.out.print(i + ", "); 
+        for (int i = Min ; i <= Max ; i++){
+                System.out.print(  i );
+                if(i >= Min && i < Max){
+                    System.out.print(",");
+                }
             }
+        
     }
 }
