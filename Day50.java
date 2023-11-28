@@ -1,22 +1,29 @@
 
 package pkg100day;
-import java.util.ArrayList;
+import java.util.Scanner;
 public class Day50 {
     public static void main(String[] args) {
-    ArrayList kantongAjaib = new ArrayList();
+    String[] buah = new String[5        ];
 
-        kantongAjaib.add("Mobil");
-        kantongAjaib.add(567);
-        kantongAjaib.add("Kucing");
-        kantongAjaib.add(1234343.5654);
-        kantongAjaib.add(true);
+        // membuat scanner
+        Scanner Sc = new Scanner(System.in);
 
-        kantongAjaib.remove("Kucing");
-        System.out.println(kantongAjaib);
+        // mengisi data ke array
+        for( int i = 0; i < buah.length; i++ ){
+            System.out.print("Buah ke-" + i + ": ");
+            buah[i] = Sc.nextLine();
+        }
 
-        System.out.println("Kantong ajaib berisi "+ kantongAjaib.size() +" item");
+        System.out.println("---------------------------");
+
+        // menampilkan semua isi array
+        for( String b : buah ){
+            System.out.println(b);
+        }
+
     }
 }
+
 
 
     
